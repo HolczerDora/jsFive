@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+    background-color: #ffbcb5;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.container{
+    border: 5px solid white;
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter{
+    border: 5px solid white;
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.couter h1{
+    font-size: 2rem;
+}
+
+#count{
+    font-size: 9rem;
+}
